@@ -1,1 +1,8 @@
 # Just create any Type and query you'd like!
+type Person {
+  name: String!
+}
+
+type Query {
+  onePerson(id: ID!): Person!
+}
